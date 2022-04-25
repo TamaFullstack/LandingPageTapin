@@ -1,0 +1,37 @@
+.bg-green{
+    background-color:#4bbe9c ;
+    margin: 0px 2rem;
+    padding: 2.5rem 0;
+}
+
+.bg-green-1{
+    background-color:#49a98d ;
+    margin: 0px 2rem;
+    padding: 2.5rem 0;
+}
+
+span{
+    color: #faff00;
+    font-size: 28px;
+}
+
+.pendd{
+    font-size: 40px!important;
+    color: #ffff;
+}
+
+p{
+    font-size: 18px;
+    color: #ffff;
+}
+
+.btn-yellow{
+    background-color: #faff00!important;
+    color: #000;
+   
+
+}
+
+/* .label{
+    margin-bottom: 5rem;
+} */
