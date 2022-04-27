@@ -4,6 +4,16 @@
     padding: 2.5rem 0;
 }
 
+.btn-Outline-green{
+    outline-style: solid;
+    outline-color: #49a98d ;
+    color: #49a98d;
+    padding: 2.5rem 0;
+    font-size: 18px;
+}
+
+
+
 .bg-green-1{
     background-color:#49a98d ;
     margin: 0px 2rem;
@@ -20,7 +30,7 @@ span{
     color: #ffff;
 }
 
-p{
+p {
     font-size: 18px;
     color: #ffff;
 }

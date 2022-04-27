@@ -1,5 +1,12 @@
 import "./App.css";
-import { NavBar, Corusel, Card1, SecInfoPen } from "./components";
+import {
+  NavBar,
+  Corusel,
+  Card1,
+  SecInfoPen,
+  Article,
+  Aspirasi,
+} from "./components";
 
 const App = () => {
   return (
@@ -8,6 +15,8 @@ const App = () => {
       <Corusel />
       <Card1 />
       <SecInfoPen />
+      <Article />
+      <Aspirasi />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../atoms/Button";
+import { CardPtitle } from "./styled";
 
 const MainCard = ({ title, title2, paragraf, image, BtnTitle }) => {
   return (
@@ -12,12 +13,12 @@ const MainCard = ({ title, title2, paragraf, image, BtnTitle }) => {
       <div className="card-body text-center ">
         <h2 className="fw-bold">{title}</h2>
         <h2 className="fw-bold">{title2}</h2>
-        <p className="card-text mb-4">{paragraf}</p>
-
+        <CardPtitle>{paragraf}</CardPtitle>
         <div class="d-grid gap-2 mt-5">
           <Button title={BtnTitle} bg={"green"} py={"4"} />
         </div>
       </div>
+      
     </div>
   );
 };

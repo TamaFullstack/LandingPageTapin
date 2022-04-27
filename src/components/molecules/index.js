@@ -1,3 +1,4 @@
 import MainCard from "./MainCard";
+import ArticleCard from "./ArticleCard/index";
 
-export { MainCard };
+export { MainCard, ArticleCard };
